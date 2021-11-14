@@ -1,0 +1,14 @@
+1) What is hypervisor- the component or s/w responsible for virtualisation which is responsible for allocating resources/hardware to the VM's
+  type 1-
+  type 2- 
+
+2) Virtualisation- the process of creating a S/W based virtual version of sth(compute storage, servers, application, etc). They r craeted from a physical single hardware
+3) Diff b/w containerisation and virtualisation-
+   >> each VM has its own OS, processor and networking componenet
+   >> The docker container makes use of the same OS as that of the host
+4) what is docker hub- a public repo which stores the docker images
+  container vs image
+
+a container is a running instance of a docker image
+multiple dockers container's can be run from the same image
+ 

@@ -1,0 +1,36 @@
+Git and Github
+
+1) What is Git
+  - A distributed and decentarlised version control system that helps us to keep track of the changes and does not rely on a single  central server
+
+2) What is s distributed version control
+  Every collaborator/developer or develper can make a copy of the central or main repository to their local system and make changes to their local copy witout
+  touching central repo and then make pull requets to update their local repo 
+3) what is a bare repo in Git -
+4) what are conflicts in Git and how do we manage conflicts
+5) How do you revert a commit that has already been pushed and made public
+6) Different Branching strategies used
+7)  
+
+
+Basic Git Commands
+
+ git configure- To configure the author of the commits 
+ git init  - Created a .git repository locally which stores the metadata 
+ git commit- 
+ git add- add the files to the staging which ready to be committed
+ git merge
+ git branch
+ git checkout
+ git push - push the changes from local repo to the remote repo
+ git pull
+ git status- dislays the state of the current working area and staging
+ git clone- creates a copy of the remote repository or local repo to a specified location
+   git clone <repo> <directory>
+ git remote
+
+ 
+ 
+
+
+  

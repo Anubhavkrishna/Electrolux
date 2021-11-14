@@ -1,0 +1,37 @@
+New-AZResouceGroup- Name $rg -location "westeurope"
+
+New-AzResourceGroupDeployment
+  --name create_storage_account
+  --resourcegroupname $rg
+  --templatefile storage1.json
+
+
+
+
+Migration of on-premise servers(hosted on VM ware, Hyper V or physical server) to Azure
+ > the dependency associated with the server also needs to be migrated
+
+Options Available
+
+>> Site Recovery-used only for disaster recovery
+
+>> Azure Migrate - used for migration purpose only- lift and shift model
+   pre-assesment
+   Server Migration tool: agentless
+   No cost involved for the tool, only compute resources are charged
+
+   Azure Migrate Appliance- 
+
+  Migration Strategy used
+   1) Pre-requisites
+   2)Azure migrate setup- the assesment tool and the mgration tool setup
+   3)discovery - download azure migrate appliance which helps to discover on-premise VM's
+   4)Assessment- select the VM's which needs to be migrated and create a new group and assessment, it also deatails the monthly cost for storage and compute
+                 it also indicates the dependency between other VM's 
+   5)Replicate VM's        
+   6)Test Migration
+   7)Migrate to production
+
+   
+
+>>

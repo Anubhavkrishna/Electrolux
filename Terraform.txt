@@ -1,0 +1,42 @@
+Terraform- Infrastructure as a Code tool, used to build infrastructure with help of code.
+
+1) Initialize your terraform configuration
+
+   terraform init- command
+   >> creates a hidden directory (.terraform) and downloads plugins as needed by the configuration
+   >> terraform uses a plugin-based architecture to support various providers
+   >> terraform init will automatically download and install any binaries required by the providers specified in the configuration
+
+
+2) Plan your Terraform run
+   
+ terraform plan - command to view the execution plan for your configuration
+ 
+ >> Execution plan specifies what actions Terraform will take to achieve the desired state defined in the config and the order in which executions occur 
+
+3) Apply your Terraform config
+  
+ terraform apply- command to apply the config
+  
+ >> the output shows the execution plan and will promt for approval before proceeding
+
+4) Terraform State
+    terraform show - the current state
+ 
+5) Terrafrom destroy 
+  >> resources can be destroyed using terraform destroy
+  >> determines the order in which resources will be destroyed
+
+6) Terraform validate-
+    checks for syntaz errors if any
+
+
+ ** Recreating resources using terraform- In case Azure does not allows certain configs to be changed after resource are created, terraform will delete the 
+    exisitng resource and create new respource with specified config
+ 
+
+** use of .tfvars file in terraform
+  
+   Used to override default values in the variables.tf file
+ 
+

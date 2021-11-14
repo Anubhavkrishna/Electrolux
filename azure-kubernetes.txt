@@ -1,0 +1,25 @@
+
+Azure kubernetes-
+
+kubectl -the command line to manage Kubernetes
+
+app.yml 
+service.yml   both files to manage nodes
+
+Cluster- a group of nodes to which manages kubernetes cluster
+Nodes- a group of pods 
+Pods- each pod hosts the container
+
+
+Command to install kubectl on a computer
+  az aks install-cli
+  
+
+
+
+
+
+
+
+
+  
